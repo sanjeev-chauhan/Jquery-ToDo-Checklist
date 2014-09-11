@@ -1,0 +1,22 @@
+{
+  "name": "Jquery-ToDo-Checklist",
+	"version": "1.0.0",
+  "homepage": "https://github.com/sanjeev-chauhan/Jquery-ToDo-Checklist",
+  "authors": [
+    "Sanjeev <schauhan2@sapient.com>"
+  ],
+  "description": "Simple To DO checklist app",
+  "main": "scripts/main.js",
+  "keywords": [
+    "TODO",
+    "Checklist"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
