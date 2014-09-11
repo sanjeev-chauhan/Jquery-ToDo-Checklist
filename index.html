@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>To Do List</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css"/>
+<body>
+<div ng-controller="TodoController" class="todoPanel">
+  <h1>TODO App</h1>
+  <hr/>
+  <h3> My To Do List</h3>
+  <ul class="my-list">
+    <li>
+      <label><input type="checkbox"/>Default Item</label>
+    </li>
+  </ul>
+
+  <div>
+  <h3>Enter item text to add</h3>
+  <input type="text" class="item-textbox"/>
+  </div>
+  <div class="btnContainer">
+    <button class="addItem"><span>Add New Item</span></button>
+  <button class="removeItem" type="button">Remove</button>
+  </div>
+
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="scripts/main.js"></script>
+ 
+</body>
+</html>

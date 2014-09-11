@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+	width:100%;
+	font-family: helvetica,arial,sans-serif;
+	font-size: 13px;
+}
+
+body{
+	background:url(../img/whitepaper-pattern.jpg) repeat ;
+}
+
+
+ul, li{list-style: none;}
+
+
+input[type="text"]{
+	height: 34px;
+	padding: 0 8px;
+	box-sizing: border-box;
+	color: #666;
+	font-size: 16px;	
+	border-radius:4px;
+	border:1px solid #ccc;
+	outline:none;
+	line-height: normal;
+}
+
+input[type="text"]:focus{
+	border:1px solid #E26A27;
+}
+
+input[type="checkbox"]{margin-right:5px;}
+
+button{
+	background: none repeat scroll 0 0 #EF672F;
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font: 15px/15px 'OpenSansBold',sans-serif;
+	letter-spacing: 1px;
+	text-shadow: none;
+    text-transform: uppercase;
+    transition: all .5s ease 0s;
+	cursor: pointer;
+    display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	border-width:0;
+	position:relative;
+}
+button:hover{
+	background:#C43D05;
+}
+
+.btnContainer{margin-top:20px}
